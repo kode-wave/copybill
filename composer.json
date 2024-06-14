@@ -1,0 +1,24 @@
+{
+    "name": "billcopy/billcopy",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BillCopy\\BillCopy\\": "packages/BillCopy/billcopy/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohdaidi",
+            "email": "aidi@kodewave.my"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BillCopy\\BillCopy\\BillCopyServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
