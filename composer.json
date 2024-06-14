@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "BillCopy\\BillCopy\\": "packages/BillCopy/billcopy/src/"
+            "BillCopy\\BillCopy\\": "src/"
         }
     },
     "keywords": [

@@ -1,6 +1,6 @@
 <?php
 
-namespace BillCopy\BillCopy\BillCopyServiceProvider;
+namespace BillCopy\BillCopy;
 
 use Illuminate\Support\ServiceProvider;
 
