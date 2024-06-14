@@ -1,11 +1,16 @@
 {
     "name": "billcopy/billcopy",
+    "description": "Bill Copy integration",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "BillCopy\\BillCopy\\": "packages/BillCopy/billcopy/src/"
         }
     },
+    "keywords": [
+        "laravel",
+        "copybill"
+    ],
     "authors": [
         {
             "name": "mohdaidi",
@@ -19,6 +24,9 @@
             ]
         }
     },
+    "require": {
+        "php": "^5.4|^7.0|^8.0"
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
