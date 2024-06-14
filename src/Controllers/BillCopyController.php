@@ -1,6 +1,6 @@
 <?php
 
-namespace BillCopy\BillCopy\BillCopyController;
+namespace BillCopy\BillCopy\Controllers;
 
 use App\Http\Requests\Request;
 
