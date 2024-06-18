@@ -1,0 +1,3 @@
+<?php 
+
+Route::get('api/information/bill/{id}', 'BillCopyController@getCopyBill')->name('api_get_copy_bill');
