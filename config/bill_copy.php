@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'dynamic_token' => true,
+    'transaction_key'   => "mbpj#2O24@",
     'auth_token' => 'e68d0073eedef0b84eed424bf51d0b23a3f90231',
     'model' => 'App\Models\EL\ApplicationJournal',
     'primary_column' => 'id',

@@ -9,7 +9,14 @@ class BillCopyController
 
     public function getCopyBill(Request $request, $id)
     {
-    	$token = config('bill_copy.auth_token');
+        $token = config('bill_copy.auth_token');
+        if(isset($request['token'])){
+            $dynamicToken = config('bill_copy.dynamic_token', false);
+            if($dynamicToken){
+                $transKey = config('bill_copy.transaction_key', '1231331');
+                $token = hash_hmac('sha256', "MBPJ^".$id, $transKey);
+            }
+        }
         if(isset($request['token']) and $request['token'] == $token){
             $model = config('bill_copy.model');
             $primaryKey = config('bill_copy.primary_column');
